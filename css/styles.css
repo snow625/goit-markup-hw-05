@@ -524,6 +524,9 @@ img {
 }
 /* иконка закрытия окна */
 .close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   top: 8px;
   right: 8px;
@@ -534,9 +537,6 @@ img {
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: var(--background-white-color);
-  background-image: url(../images/close.svg);
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 /* footer */
