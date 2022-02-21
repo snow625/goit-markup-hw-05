@@ -116,7 +116,7 @@ img {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0;
+  transition-delay: 0ms;
 
   /* border: 2px solid tomato; */
 }
@@ -135,7 +135,7 @@ img {
 
 .site-nav .link.current::after {
   position: absolute;
-  bottom: 0;
+  bottom: 1px;
   left: 0;
   content: '';
   width: 100%;
@@ -189,7 +189,7 @@ img {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0;
+  transition-delay: 0ms;
 }
 .contacts .link:focus,
 .contacts .link:hover {
@@ -387,7 +387,7 @@ img {
   transition-property: color, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0;
+  transition-delay: 0ms;
 }
 .social-links-icon:focus,
 .social-links-icon:hover {
@@ -417,7 +417,7 @@ img {
   transition-property: box-shadow, color, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0;
+  transition-delay: 0ms;
 }
 .button:hover,
 .button:focus {
@@ -509,7 +509,7 @@ img {
   left: 50%;
   transform: scale(1) translate(-50%, -50%);
 
-  transition-property: transform;
+  transition-property: transform, opacity;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0ms;
@@ -573,7 +573,7 @@ img {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0;
+  transition-delay: 0ms;
 }
 .address .link:hover,
 .address .link:focus {
